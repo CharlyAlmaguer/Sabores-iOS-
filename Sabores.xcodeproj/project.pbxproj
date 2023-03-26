@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23FC08B629CCD96500EDBAE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC08B529CCD96500EDBAE0 /* AppDelegate.swift */; };
+		23FC08B829CCD96500EDBAE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC08B729CCD96500EDBAE0 /* SceneDelegate.swift */; };
+		23FC08BD29CCD96500EDBAE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23FC08BB29CCD96500EDBAE0 /* Main.storyboard */; };
+		23FC08C029CCD96500EDBAE0 /* Sabores.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23FC08BE29CCD96500EDBAE0 /* Sabores.xcdatamodeld */; };
+		23FC08C229CCD96E00EDBAE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23FC08C129CCD96E00EDBAE0 /* Assets.xcassets */; };
+		23FC08C529CCD96E00EDBAE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23FC08C329CCD96E00EDBAE0 /* LaunchScreen.storyboard */; };
+		23FC08CF29CCDFB200EDBAE0 /* PortadaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC08CE29CCDFB200EDBAE0 /* PortadaViewController.swift */; };
+		23FC08D229CEA08400EDBAE0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC08D129CEA08400EDBAE0 /* LoginViewController.swift */; };
+		23FC08D729CEBD4F00EDBAE0 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23FC08D629CEBD4F00EDBAE0 /* Network.framework */; };
+		23FC08DB29CEC39D00EDBAE0 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 23FC08DA29CEC39D00EDBAE0 /* GoogleSignIn */; };
+		23FC08DD29CEC39D00EDBAE0 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 23FC08DC29CEC39D00EDBAE0 /* GoogleSignInSwift */; };
+		23FC08E129CEDBE000EDBAE0 /* CategoriasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC08E029CEDBE000EDBAE0 /* CategoriasViewController.swift */; };
+		23FC08E429CF8B2500EDBAE0 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC08E329CF8B2500EDBAE0 /* ListTableViewController.swift */; };
+		23FC08E729CF8B4E00EDBAE0 /* CarritoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC08E629CF8B4E00EDBAE0 /* CarritoViewController.swift */; };
+		23FC08EB29CF90F700EDBAE0 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC08EA29CF90F700EDBAE0 /* List.swift */; };
+		23FC08F029CFAD0F00EDBAE0 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC08EE29CFAD0F00EDBAE0 /* ListTableViewCell.swift */; };
+		23FC08F129CFAD0F00EDBAE0 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23FC08EF29CFAD0F00EDBAE0 /* ListTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23FC08B229CCD96500EDBAE0 /* Sabores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sabores.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FC08B529CCD96500EDBAE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23FC08B729CCD96500EDBAE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		23FC08BC29CCD96500EDBAE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23FC08BF29CCD96500EDBAE0 /* Sabores.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sabores.xcdatamodel; sourceTree = "<group>"; };
+		23FC08C129CCD96E00EDBAE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23FC08C429CCD96E00EDBAE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23FC08C629CCD96E00EDBAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23FC08CE29CCDFB200EDBAE0 /* PortadaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortadaViewController.swift; sourceTree = "<group>"; };
+		23FC08D129CEA08400EDBAE0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		23FC08D629CEBD4F00EDBAE0 /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
+		23FC08E029CEDBE000EDBAE0 /* CategoriasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriasViewController.swift; sourceTree = "<group>"; };
+		23FC08E329CF8B2500EDBAE0 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		23FC08E629CF8B4E00EDBAE0 /* CarritoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoViewController.swift; sourceTree = "<group>"; };
+		23FC08EA29CF90F700EDBAE0 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		23FC08EE29CFAD0F00EDBAE0 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		23FC08EF29CFAD0F00EDBAE0 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23FC08AF29CCD96500EDBAE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FC08DD29CEC39D00EDBAE0 /* GoogleSignInSwift in Frameworks */,
+				23FC08D729CEBD4F00EDBAE0 /* Network.framework in Frameworks */,
+				23FC08DB29CEC39D00EDBAE0 /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23FC08A929CCD96500EDBAE0 = {
+			isa = PBXGroup;
+			children = (
+				23FC08B429CCD96500EDBAE0 /* Sabores */,
+				23FC08B329CCD96500EDBAE0 /* Products */,
+				23FC08D529CEBD4E00EDBAE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23FC08B329CCD96500EDBAE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23FC08B229CCD96500EDBAE0 /* Sabores.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23FC08B429CCD96500EDBAE0 /* Sabores */ = {
+			isa = PBXGroup;
+			children = (
+				23FC08E929CF90E200EDBAE0 /* Model */,
+				23FC08B529CCD96500EDBAE0 /* AppDelegate.swift */,
+				23FC08B729CCD96500EDBAE0 /* SceneDelegate.swift */,
+				23FC08BB29CCD96500EDBAE0 /* Main.storyboard */,
+				23FC08C129CCD96E00EDBAE0 /* Assets.xcassets */,
+				23FC08C329CCD96E00EDBAE0 /* LaunchScreen.storyboard */,
+				23FC08C629CCD96E00EDBAE0 /* Info.plist */,
+				23FC08BE29CCD96500EDBAE0 /* Sabores.xcdatamodeld */,
+				23FC08CE29CCDFB200EDBAE0 /* PortadaViewController.swift */,
+				23FC08D129CEA08400EDBAE0 /* LoginViewController.swift */,
+				23FC08E029CEDBE000EDBAE0 /* CategoriasViewController.swift */,
+				23FC08E329CF8B2500EDBAE0 /* ListTableViewController.swift */,
+				23FC08E629CF8B4E00EDBAE0 /* CarritoViewController.swift */,
+				23FC08EE29CFAD0F00EDBAE0 /* ListTableViewCell.swift */,
+				23FC08EF29CFAD0F00EDBAE0 /* ListTableViewCell.xib */,
+			);
+			path = Sabores;
+			sourceTree = "<group>";
+		};
+		23FC08D529CEBD4E00EDBAE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23FC08D629CEBD4F00EDBAE0 /* Network.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23FC08E929CF90E200EDBAE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23FC08EA29CF90F700EDBAE0 /* List.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23FC08B129CCD96500EDBAE0 /* Sabores */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23FC08C929CCD96E00EDBAE0 /* Build configuration list for PBXNativeTarget "Sabores" */;
+			buildPhases = (
+				23FC08AE29CCD96500EDBAE0 /* Sources */,
+				23FC08AF29CCD96500EDBAE0 /* Frameworks */,
+				23FC08B029CCD96500EDBAE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sabores;
+			packageProductDependencies = (
+				23FC08DA29CEC39D00EDBAE0 /* GoogleSignIn */,
+				23FC08DC29CEC39D00EDBAE0 /* GoogleSignInSwift */,
+			);
+			productName = Sabores;
+			productReference = 23FC08B229CCD96500EDBAE0 /* Sabores.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23FC08AA29CCD96500EDBAE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					23FC08B129CCD96500EDBAE0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 23FC08AD29CCD96500EDBAE0 /* Build configuration list for PBXProject "Sabores" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23FC08A929CCD96500EDBAE0;
+			packageReferences = (
+				23FC08D929CEC39D00EDBAE0 /* XCRemoteSwiftPackageReference "GoogleSignin-iOS" */,
+			);
+			productRefGroup = 23FC08B329CCD96500EDBAE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23FC08B129CCD96500EDBAE0 /* Sabores */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23FC08B029CCD96500EDBAE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FC08C529CCD96E00EDBAE0 /* LaunchScreen.storyboard in Resources */,
+				23FC08F129CFAD0F00EDBAE0 /* ListTableViewCell.xib in Resources */,
+				23FC08C229CCD96E00EDBAE0 /* Assets.xcassets in Resources */,
+				23FC08BD29CCD96500EDBAE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23FC08AE29CCD96500EDBAE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FC08CF29CCDFB200EDBAE0 /* PortadaViewController.swift in Sources */,
+				23FC08E729CF8B4E00EDBAE0 /* CarritoViewController.swift in Sources */,
+				23FC08B629CCD96500EDBAE0 /* AppDelegate.swift in Sources */,
+				23FC08E129CEDBE000EDBAE0 /* CategoriasViewController.swift in Sources */,
+				23FC08B829CCD96500EDBAE0 /* SceneDelegate.swift in Sources */,
+				23FC08D229CEA08400EDBAE0 /* LoginViewController.swift in Sources */,
+				23FC08C029CCD96500EDBAE0 /* Sabores.xcdatamodeld in Sources */,
+				23FC08E429CF8B2500EDBAE0 /* ListTableViewController.swift in Sources */,
+				23FC08EB29CF90F700EDBAE0 /* List.swift in Sources */,
+				23FC08F029CFAD0F00EDBAE0 /* ListTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23FC08BB29CCD96500EDBAE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23FC08BC29CCD96500EDBAE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23FC08C329CCD96E00EDBAE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23FC08C429CCD96E00EDBAE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23FC08C729CCD96E00EDBAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23FC08C829CCD96E00EDBAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23FC08CA29CCD96E00EDBAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK7SKFH638;
+				INFOPLIST_FILE = Sabores/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = almaguer.carlos.Sabores;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23FC08CB29CCD96E00EDBAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK7SKFH638;
+				INFOPLIST_FILE = Sabores/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = almaguer.carlos.Sabores;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23FC08AD29CCD96500EDBAE0 /* Build configuration list for PBXProject "Sabores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23FC08C729CCD96E00EDBAE0 /* Debug */,
+				23FC08C829CCD96E00EDBAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23FC08C929CCD96E00EDBAE0 /* Build configuration list for PBXNativeTarget "Sabores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23FC08CA29CCD96E00EDBAE0 /* Debug */,
+				23FC08CB29CCD96E00EDBAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		23FC08D929CEC39D00EDBAE0 /* XCRemoteSwiftPackageReference "GoogleSignin-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignin-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23FC08DA29CEC39D00EDBAE0 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23FC08D929CEC39D00EDBAE0 /* XCRemoteSwiftPackageReference "GoogleSignin-iOS" */;
+			productName = GoogleSignIn;
+		};
+		23FC08DC29CEC39D00EDBAE0 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23FC08D929CEC39D00EDBAE0 /* XCRemoteSwiftPackageReference "GoogleSignin-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		23FC08BE29CCD96500EDBAE0 /* Sabores.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				23FC08BF29CCD96500EDBAE0 /* Sabores.xcdatamodel */,
+			);
+			currentVersion = 23FC08BF29CCD96500EDBAE0 /* Sabores.xcdatamodel */;
+			path = Sabores.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 23FC08AA29CCD96500EDBAE0 /* Project object */;
+}
