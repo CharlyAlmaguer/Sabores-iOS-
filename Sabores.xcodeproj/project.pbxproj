@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		239900FD29D2B45A0040A220 /* Sabores.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23FC08BE29CCD96500EDBAE0 /* Sabores.xcdatamodeld */; };
+		2399011229D2B6EF0040A220 /* Producto+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2399010E29D2B6DC0040A220 /* Producto+CoreDataClass.swift */; };
+		2399011529D2B7530040A220 /* Producto+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2399011429D2B7530040A220 /* Producto+CoreDataProperties.swift */; };
+		2399011B29D2B7B30040A220 /* ProductoDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2399011729D2B7A50040A220 /* ProductoDataManager.swift */; };
+		2399011E29D36B170040A220 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2399011D29D36B170040A220 /* DetailViewController.swift */; };
+		2399012829D3D6200040A220 /* CarritoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2399012629D3D6200040A220 /* CarritoTableViewCell.swift */; };
+		2399012929D3D6200040A220 /* CarritoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2399012729D3D6200040A220 /* CarritoTableViewCell.xib */; };
 		23FC08B629CCD96500EDBAE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC08B529CCD96500EDBAE0 /* AppDelegate.swift */; };
 		23FC08B829CCD96500EDBAE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC08B729CCD96500EDBAE0 /* SceneDelegate.swift */; };
 		23FC08BD29CCD96500EDBAE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23FC08BB29CCD96500EDBAE0 /* Main.storyboard */; };
-		23FC08C029CCD96500EDBAE0 /* Sabores.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23FC08BE29CCD96500EDBAE0 /* Sabores.xcdatamodeld */; };
 		23FC08C229CCD96E00EDBAE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23FC08C129CCD96E00EDBAE0 /* Assets.xcassets */; };
 		23FC08C529CCD96E00EDBAE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23FC08C329CCD96E00EDBAE0 /* LaunchScreen.storyboard */; };
 		23FC08CF29CCDFB200EDBAE0 /* PortadaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC08CE29CCDFB200EDBAE0 /* PortadaViewController.swift */; };
@@ -27,6 +33,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2399010E29D2B6DC0040A220 /* Producto+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Producto+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2399011429D2B7530040A220 /* Producto+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Producto+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2399011729D2B7A50040A220 /* ProductoDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoDataManager.swift; sourceTree = "<group>"; };
+		2399011D29D36B170040A220 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2399012629D3D6200040A220 /* CarritoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoTableViewCell.swift; sourceTree = "<group>"; };
+		2399012729D3D6200040A220 /* CarritoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarritoTableViewCell.xib; sourceTree = "<group>"; };
 		23FC08B229CCD96500EDBAE0 /* Sabores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sabores.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23FC08B529CCD96500EDBAE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23FC08B729CCD96500EDBAE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +107,9 @@
 				23FC08E629CF8B4E00EDBAE0 /* CarritoViewController.swift */,
 				23FC08EE29CFAD0F00EDBAE0 /* ListTableViewCell.swift */,
 				23FC08EF29CFAD0F00EDBAE0 /* ListTableViewCell.xib */,
+				2399011D29D36B170040A220 /* DetailViewController.swift */,
+				2399012629D3D6200040A220 /* CarritoTableViewCell.swift */,
+				2399012729D3D6200040A220 /* CarritoTableViewCell.xib */,
 			);
 			path = Sabores;
 			sourceTree = "<group>";
@@ -111,6 +126,9 @@
 			isa = PBXGroup;
 			children = (
 				23FC08EA29CF90F700EDBAE0 /* List.swift */,
+				2399010E29D2B6DC0040A220 /* Producto+CoreDataClass.swift */,
+				2399011429D2B7530040A220 /* Producto+CoreDataProperties.swift */,
+				2399011729D2B7A50040A220 /* ProductoDataManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -179,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2399012929D3D6200040A220 /* CarritoTableViewCell.xib in Resources */,
 				23FC08C529CCD96E00EDBAE0 /* LaunchScreen.storyboard in Resources */,
 				23FC08F129CFAD0F00EDBAE0 /* ListTableViewCell.xib in Resources */,
 				23FC08C229CCD96E00EDBAE0 /* Assets.xcassets in Resources */,
@@ -194,15 +213,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				23FC08CF29CCDFB200EDBAE0 /* PortadaViewController.swift in Sources */,
+				2399011529D2B7530040A220 /* Producto+CoreDataProperties.swift in Sources */,
+				2399011229D2B6EF0040A220 /* Producto+CoreDataClass.swift in Sources */,
+				2399012829D3D6200040A220 /* CarritoTableViewCell.swift in Sources */,
 				23FC08E729CF8B4E00EDBAE0 /* CarritoViewController.swift in Sources */,
 				23FC08B629CCD96500EDBAE0 /* AppDelegate.swift in Sources */,
+				239900FD29D2B45A0040A220 /* Sabores.xcdatamodeld in Sources */,
 				23FC08E129CEDBE000EDBAE0 /* CategoriasViewController.swift in Sources */,
 				23FC08B829CCD96500EDBAE0 /* SceneDelegate.swift in Sources */,
 				23FC08D229CEA08400EDBAE0 /* LoginViewController.swift in Sources */,
-				23FC08C029CCD96500EDBAE0 /* Sabores.xcdatamodeld in Sources */,
+				2399011B29D2B7B30040A220 /* ProductoDataManager.swift in Sources */,
 				23FC08E429CF8B2500EDBAE0 /* ListTableViewController.swift in Sources */,
 				23FC08EB29CF90F700EDBAE0 /* List.swift in Sources */,
 				23FC08F029CFAD0F00EDBAE0 /* ListTableViewCell.swift in Sources */,
+				2399011E29D36B170040A220 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +416,7 @@
 				23FC08C829CCD96E00EDBAE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		23FC08C929CCD96E00EDBAE0 /* Build configuration list for PBXNativeTarget "Sabores" */ = {
 			isa = XCConfigurationList;
@@ -401,7 +425,7 @@
 				23FC08CB29CCD96E00EDBAE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 

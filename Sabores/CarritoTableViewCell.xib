@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CarritoCell" id="KGk-i7-Jjw" customClass="CarritoTableViewCell" customModule="Sabores" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="371" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="371" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_2" translatesAutoresizingMaskIntoConstraints="NO" id="TbU-Ou-6t6">
+                        <rect key="frame" x="5" y="5" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="GWb-Ev-3Jw"/>
+                            <constraint firstAttribute="width" constant="60" id="QwS-lk-MFK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U6u-KV-Z4m">
+                        <rect key="frame" x="75" y="5" width="250" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="jw6-Dj-Qbd"/>
+                            <constraint firstAttribute="width" constant="250" id="trr-5V-rKo"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cantidad: 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66X-57-dvl">
+                        <rect key="frame" x="75" y="30" width="200" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="26b-kM-S4R"/>
+                            <constraint firstAttribute="width" constant="200" id="W82-B2-g9K"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" name="gris"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Precio" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qaQ-Gs-nQR">
+                        <rect key="frame" x="75" y="51" width="200" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="ch4-7L-Qwi"/>
+                            <constraint firstAttribute="width" constant="200" id="uVY-h9-boN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" name="green"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="U6u-KV-Z4m" firstAttribute="leading" secondItem="TbU-Ou-6t6" secondAttribute="trailing" constant="10" id="7tY-PJ-sje"/>
+                    <constraint firstItem="qaQ-Gs-nQR" firstAttribute="leading" secondItem="TbU-Ou-6t6" secondAttribute="trailing" constant="10" id="AC5-9A-Vrh"/>
+                    <constraint firstItem="U6u-KV-Z4m" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="K8C-1c-NNJ"/>
+                    <constraint firstItem="TbU-Ou-6t6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="Nfa-YK-RS1"/>
+                    <constraint firstItem="TbU-Ou-6t6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="lFm-OH-qtn"/>
+                    <constraint firstItem="66X-57-dvl" firstAttribute="leading" secondItem="TbU-Ou-6t6" secondAttribute="trailing" constant="10" id="oOW-Yf-FOq"/>
+                    <constraint firstItem="qaQ-Gs-nQR" firstAttribute="top" secondItem="66X-57-dvl" secondAttribute="bottom" constant="5" id="pd6-iO-bBr"/>
+                    <constraint firstItem="66X-57-dvl" firstAttribute="top" secondItem="U6u-KV-Z4m" secondAttribute="bottom" constant="5" id="rjd-LG-cyx"/>
+                    <constraint firstAttribute="bottom" secondItem="TbU-Ou-6t6" secondAttribute="bottom" constant="5" id="vJk-jb-0B4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="ivCarrito" destination="TbU-Ou-6t6" id="OhW-bQ-TDL"/>
+                <outlet property="labelPrecioCarrito" destination="qaQ-Gs-nQR" id="97F-GI-iEw"/>
+                <outlet property="labelTituloCarrito" destination="U6u-KV-Z4m" id="6Ik-T2-Afr"/>
+            </connections>
+            <point key="canvasLocation" x="177.536231884058" y="60.9375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="logo_2" width="349.5" height="352"/>
+        <namedColor name="green">
+            <color red="0.40400001406669617" green="0.57999998331069946" blue="0.21199999749660492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="gris">
+            <color red="0.72500002384185791" green="0.72500002384185791" blue="0.72500002384185791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
